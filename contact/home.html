@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact | marCommstudio.</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta property="og:image" itemprop="image" content="../assets/images/icons/favicon.PNG">
+        <link rel="shortcut icon" type="image/jpg" href="../assets/images/icons/favicon.PNG"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Benne&family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script src="../assets/js/contact.js"></script>
+        <link rel="stylesheet" href="../assets/css/style.css">
+    </head>
+    <body>
+        <div class="m-menu">
+            <div class="cancel">
+                <img class="i-menu" src="../assets/images/icons/cancel.png">
+            </div>
+            <div class="m-nav">
+                <a href="../about/">About</a>
+                <a id="menu-serv">Services<img id="i-down" class="i-arr" src="../assets/images/icons/down-arrow.png"><img id="i-up" class="i-arr" src="../assets/images/icons/up-arrow.png"></a>
+                <a class="indent" href="../services/enterprise/">Enterprise / Corporate</a>
+                <a class="indent" href="../services/professional/">Professional / Student</a>
+                <a href="../clientele/">Clientele</a>
+                <a href="../alliances/">Alliances</a>
+                <a href="../culture/">Culture</a>
+                <a href=".">Contact</a>
+                <div class="flag">
+                    <a href="../kr/">
+                        <img src="../assets/images/flags/south-korea.png">
+                        KR
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <a class="wordmark" href="../">marCommstudio.</a>
+            <div class="navbar m-hide">
+                <a href="../about/">About</a>
+                <div class="dr">Services<img class="i-arr" src="../assets/images/icons/down-arrow.png">
+                    <div class="dr-menu">
+                        <a id="empty"></a>
+                        <a href="../services/enterprise/">Enterprise/<br>Corporate</a>
+                        <a href="../services/professional/">Professional/<br>Student</a>
+                    </div>
+                </div>
+                <a href="../clientele/">Clientele</a>
+                <a href="../alliances/">Alliances</a>
+                <a href="../culture/">Culture</a>
+                <a class="active" href=".">Contact</a>
+                <a href="../kr/" class="flag">
+                    <img src="../assets/images/flags/south-korea.png">
+                    KR
+                </a>
+            </div>
+            <img id="btn-m-menu" class="i-menu m-show" src="../assets/images/icons/menu.png">
+        </nav>
+        <div id="h-con" class="sm padding fl-center page">
+            <div class="fl full-w">
+                <div class="half">
+                    <h2>Contact us</h2>
+                    <h3>Inquire about a consultation.</h3>
+                </div>
+                <div class="half">
+                    <div id="send-status"></div>
+                    <form id="contact-form" method="post" action="contact.php">
+                        <div class="row">
+                            <input id="name" type="text" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="row">
+                            <input id="company" type="text" placeholder="Company" name="company" required>
+                        </div>
+                        <div class="row">
+                            <input id="email" type="email" placeholder="Email" name="email" required>
+                        </div>
+                        <div class="row">
+                            <textarea id="message" name="message" rows="7" placeholder="Message" required></textarea>
+                        </div>
+                        <input type="submit" value="send">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <span>&copy; 2021&nbsp;&nbsp;|&nbsp;&nbsp;A sole proprietorship by name of the founder&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved</span>
+            <span class="m-show">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <span>Website custom designed and hand-coded by us&nbsp;&nbsp;|&nbsp;&nbsp;<a href="../privacy/">Privacy</a></span>
+        </footer>
+        <script src="../assets/js/script.js"></script>
+    </body>
+</html>
